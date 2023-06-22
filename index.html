@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/earlyaccess/kokoro.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="logo.png" type="icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Instrument</title>
+  </head>
+  <audio id="castanets" src="sounds/castanets.mp3"></audio>
+  <audio id="clarinet" src="sounds/clarinet.mp3"></audio>
+  <audio id="drums" src="sounds/drums.mp3"></audio>
+  <audio id="flute" src="sounds/flute.mp3"></audio>
+  <audio id="guitar" src="sounds/guitar.mp3"></audio>
+  <audio id="piano" src="sounds/piano.mp3"></audio>
+  <audio id="recorder" src="sounds/recorder.mp3"></audio>
+  <audio id="saxophone" src="sounds/saxophone.mp3"></audio>
+  <audio id="triangle" src="sounds/triangle.mp3"></audio>
+  <audio id="trumpet" src="sounds/trumpet.mp3"></audio>
+  <audio id="violin" src="sounds/violin.mp3"></audio>
+  <audio id="xylophone" src="sounds/xylophone.mp3"></audio>
+
+  <body>
+    <h1>instrument</h1>
+    <div class="container">
+      <!-- Castanets -->
+      <div class="text">
+        <h3 class="text-title">Castanets</h3>
+        <a onclick="document.getElementById('castanets').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.pexels.com/photos/12055422/pexels-photo-12055422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          />
+          <p class="img__description">カスタネット</p>
+        </div>
+      </div>
+      <!-- Castanets end -->
+
+      <!-- Clarinet -->
+      <div class="text">
+        <h3 class="text-title">Clarinet</h3>
+        <a onclick="document.getElementById('clarinet').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1584541492926-d26043e3af0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">クラリネット</p>
+        </div>
+      </div>
+      <!-- Clarinet end -->
+
+      <!-- Drums -->
+      <div class="text">
+        <h3 class="text-title">Drums</h3>
+        <a onclick="document.getElementById('drums').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1543443258-92b04ad5ec6b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">ドラム</p>
+        </div>
+      </div>
+      <!-- Drums end -->
+
+      <!-- Flute -->
+      <div class="text">
+        <h3 class="text-title">Flute</h3>
+        <a onclick="document.getElementById('flute').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1630754157855-0f2e4b650ab3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">フルート</p>
+        </div>
+      </div>
+      <!-- Flute end -->
+
+      <!-- Guitar -->
+      <div class="text">
+        <h3 class="text-title">Guitar</h3>
+        <a onclick="document.getElementById('guitar').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1605020420620-20c943cc4669?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">ギター</p>
+        </div>
+      </div>
+      <!-- Guitar end -->
+      <!-- Piano -->
+      <div class="text">
+        <h3 class="text-title">Piano</h3>
+        <a onclick="document.getElementById('piano').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1552422535-c45813c61732?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">ピアノ</p>
+        </div>
+      </div>
+      <!-- Piano end -->
+
+      <!-- Recorder -->
+      <div class="text">
+        <h3 class="text-title">Recorder</h3>
+        <a onclick="document.getElementById('recorder').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1580719653258-26873fde0b4d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">リコーダー</p>
+        </div>
+      </div>
+      <!-- Recorder end -->
+
+      <!-- Saxophone -->
+      <div class="text">
+        <h3 class="text-title">Saxophone</h3>
+        <a onclick="document.getElementById('saxophone').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1484712548363-bad7b2ff3878?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=463&q=80"
+          />
+          <p class="img__description">サックスフォン</p>
+        </div>
+      </div>
+      <!-- Saxophone end -->
+
+      <!-- Triangle -->
+      <div class="text">
+        <h3 class="text-title">Triangle</h3>
+        <a onclick="document.getElementById('triangle').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.pexels.com/photos/7285253/pexels-photo-7285253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          />
+          <p class="img__description">トライアングル</p>
+        </div>
+      </div>
+      <!-- Triangle end -->
+
+      <!-- Trumpet -->
+      <div class="text">
+        <h3 class="text-title">Trumpet</h3>
+        <a onclick="document.getElementById('trumpet').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1573871666457-7c7329118cf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">トランペット</p>
+        </div>
+      </div>
+      <!-- Trumpet end -->
+      <!-- Violin -->
+      <div class="text">
+        <h3 class="text-title">Violin</h3>
+        <a onclick="document.getElementById('violin').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1465821185615-20b3c2fbf41b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1298&q=80"
+          />
+          <p class="img__description">バイオリン</p>
+        </div>
+      </div>
+      <!-- Violin end -->
+
+      <!-- Xylophone -->
+      <div class="text">
+        <h3 class="text-title">Xylophone</h3>
+        <a onclick="document.getElementById('xylophone').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.pexels.com/photos/1518761/pexels-photo-1518761.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          />
+          <p class="img__description">もっきん</p>
+        </div>
+      </div>
+      <!-- Xylophone end -->
+    </div>
+    <!-- container end -->
+    <script src="script.js"></script>
+  </body>
+</html>
